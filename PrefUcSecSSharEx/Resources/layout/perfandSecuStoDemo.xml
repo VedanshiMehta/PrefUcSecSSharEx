@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        
+        android:id="@+id/linearLayoutPS1"
+        android:gravity="center">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/buttonPS"
+            android:text="Preferences"
+            android:background="@color/colorAccent"
+            android:textColor="#ffffff"
+            android:layout_centerHorizontal="true"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/buttonSS"
+            android:text="Secure Storage "
+            android:background="@color/colorAccent"
+            android:textColor="#ffffff"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="10dp"/>
+
+    </LinearLayout>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your name"
+        android:id="@+id/editTextPS"
+        android:visibility="invisible"
+        android:layout_marginTop="10dp"
+        android:inputType="text"
+        android:imeOptions="actionNext"/>
+    <Switch
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:id="@+id/switchPS"
+        android:visibility="invisible"
+        android:layout_height="wrap_content"
+        android:text="Stram Via Wifi only"
+        android:trackTint="@color/my_blue"
+        android:thumbTint="@color/my_green"
+        android:switchPadding="16dp"/>
+
+       <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:id="@+id/linearLayoutPS2"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textViewPS"
+            android:visibility="invisible"
+            android:text="Volume"
+            android:textColor="#000000"
+            android:layout_centerHorizontal="true"/>
+        <SeekBar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/seekBarPS"
+            android:visibility="invisible"/>
+
+    </LinearLayout>
+   <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:id="@+id/linearLayoutPS3"
+        android:layout_gravity="center">
+     <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/buttonPS1"
+            android:layout_gravity="center"
+            android:text="Save your Changes "
+            android:background="@color/colorAccent"
+            android:textColor="#ffffff"
+            android:layout_centerHorizontal="true"
+            android:visibility="invisible"/>
+      <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/buttonSS1"
+            android:layout_gravity="center"
+            android:background="@color/colorAccent"
+            android:textColor="#ffffff"
+            android:text="Save your Changes "
+            android:layout_centerHorizontal="true"
+            android:visibility="invisible"/>
+    </LinearLayout>
+     <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:id="@+id/linearLayoutPS4"
+        android:layout_gravity="center">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/buttonPS2"
+            android:layout_gravity="center"
+            android:text="Get your Changes "
+            android:background="@color/colorAccent"
+            android:textColor="#ffffff"
+            android:layout_centerHorizontal="true"
+            android:visibility="invisible"/>
+      <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/buttonSS2"
+            android:layout_gravity="center"
+            android:text="Get your Changes "
+            android:background="@color/colorAccent"
+            android:textColor="#ffffff"
+            android:layout_centerHorizontal="true"
+            android:visibility="invisible"/>
+     </LinearLayout>
+     <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:id="@+id/linearLayoutPS5"
+        android:layout_gravity="center">
+     <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/buttonPS3"
+            android:layout_gravity="center"
+            android:text="Remove your Changes "
+            android:background="@color/colorAccent"
+            android:textColor="#ffffff"
+            android:layout_centerHorizontal="true"
+            android:visibility="invisible"/>
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/buttonSS3"
+            android:layout_gravity="center"
+            android:text="Remove your Changes "
+            android:background="@color/colorAccent"
+            android:textColor="#ffffff"
+            android:layout_centerHorizontal="true"
+            android:visibility="invisible"/>
+         </LinearLayout>
+     <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:id="@+id/linearLayoutPS6"
+        android:layout_gravity="center">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/buttonPS4"
+            android:background="@color/colorAccent"
+            android:textColor="#ffffff"
+            android:layout_gravity="center"
+            android:text="Remove All your Changes "
+            android:layout_centerHorizontal="true"
+            android:visibility="invisible"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/buttonSS4"
+            android:background="@color/colorAccent"
+            android:textColor="#ffffff"
+            android:layout_gravity="center"
+            android:text="Remove All your Changes "
+            android:layout_centerHorizontal="true"
+            android:visibility="invisible"/>
+    </LinearLayout>
+</LinearLayout>
